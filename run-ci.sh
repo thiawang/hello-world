@@ -6,4 +6,4 @@ python ./exc_class2.py
 python ./exc_file.py 23
 python ./exc_list.py
 python ./exc_time.py
-python ./leetcode/lc_*.py
+for f in $(ls leetcode/*py); do python $f; done
